@@ -2,7 +2,7 @@
 # SQL Injections Investigation
 
 ## **Aim:**
-	To learn about SQL Injections, how they operate and can be used to modify SQL queries used in databases. Also find methods how they could be prevented.
+To learn about SQL Injections, how they operate and can be used to modify SQL queries used in databases. Also find methods how they could be prevented.
 
 ## **Method:**
 	1. Set up a safe environment: Use a vulnerable website created for learning purposes.
@@ -27,5 +27,6 @@
 
 
 ## **Conclusion:**
-	Both websites were vulnerable and did not have any user input checks, so it was easy to implement the needed SQL statement to make it always return True and log me in. To protect websites from similar SQL Injections developers could do multiple things, for example add input validation or placeholders, to stop the user input being executed in a query and added to the database instead.
+Both websites were vulnerable and did not have any user input checks, so it was easy to implement the needed SQL statement to make it always return True and log me in. To protect websites from similar SQL Injections developers could do multiple things, for example add input validation or placeholders, to stop the user input being executed in a query and added to the database instead.
+
 
